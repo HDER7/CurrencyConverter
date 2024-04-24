@@ -1,6 +1,7 @@
+![image](https://github.com/HDER7/CurrencyConverterAPI/assets/115316825/feb7a722-a3d5-4c2b-874f-59f8b63e027d)
+
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-   ![image](https://github.com/HDER7/CurrencyConverterAPI/assets/115316825/43262684-7514-4b36-9f93-ab65ad21b068)
    </p>
 
 # Conversor de Moneda
