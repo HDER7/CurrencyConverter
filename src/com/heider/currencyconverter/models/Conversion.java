@@ -6,10 +6,8 @@ import com.heider.currencyconverter.api.ExchangeRateAPI;
 import java.util.List;
 
 public class Conversion {
-    private String fromCurrency = "USD";
 
     public double calculateAmount(String fromCurrency, String toCurrency, double amount) {
-        this.fromCurrency = fromCurrency;
         ExchangeRateAPI c = new ExchangeRateAPI();
         Response response = c.getExchangeRate(fromCurrency);
         double rate = response.conversion_rates().get(toCurrency.toUpperCase());
@@ -18,7 +16,7 @@ public class Conversion {
 
     public List<String> possible(){
         ExchangeRateAPI c = new ExchangeRateAPI();
-        Response response = c.getExchangeRate(fromCurrency);
+        Response response = c.getExchangeRate("USD");
         return response.getCurrencyAbbreviations();
     }
 

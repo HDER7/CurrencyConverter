@@ -1,5 +1,6 @@
 package com.heider.currencyconverter.models;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Choice {
@@ -8,8 +9,9 @@ public class Choice {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el valor a convertir: ");
         double value = sc.nextDouble();
-        double result = conversion.calculateAmount(conversion.possible().get(index),conversion.possible().get(index2),value);
-        System.out.println(value+"["+conversion.possible().get(index)+"] en "+name+ " son " +result+"["+conversion.possible().get(index2)+"]");
+        List<String> possible = conversion.possible();
+        double result = conversion.calculateAmount(possible.get(index),possible.get(index2),value);
+        System.out.println(value+"["+possible.get(index)+"] en "+name+ " son " +result+"["+possible.get(index2)+"]");
 
     }
 }
