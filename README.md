@@ -1,7 +1,7 @@
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   ![image](https://github.com/HDER7/CurrencyConverterAPI/assets/115316825/43262684-7514-4b36-9f93-ab65ad21b068)
    </p>
-![image](https://github.com/HDER7/CurrencyConverterAPI/assets/115316825/d7467a47-a53a-4b66-af11-4b5691876b69)
 
 # Conversor de Moneda
 Este proyecto es un simple conversor de moneda que permite convertir entre diferentes tipos de moneda utilizando la API de exchangerate-api para obtener tasas de cambio actualizadas.
